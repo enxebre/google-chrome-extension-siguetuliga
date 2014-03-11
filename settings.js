@@ -1,0 +1,10 @@
+padding = "1";
+width = "250px";
+bgColor = "#FFFFFF";
+linkColor = "#262626";
+textColorA = "#099E00";
+textColorB = "#666666";
+border = "1px solid #666666";
+textFont = "12px Droid Sans, arial, serif";
+widthIcon = "14";
+heightIcon = "14";

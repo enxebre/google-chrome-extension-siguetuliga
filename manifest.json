@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Siguetuliga",
+  "description": "This extension allows you know the lastest football scores provided by Siguetuliga",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ico.png",
+    "default_popup": "popup.html"
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+  "permissions": [
+    "http://www.siguetuliga.com/",
+    "https://www.siguetuliga.com/",
+    "storage"
+  ],
+
+  "version": "1.0"
+
+}

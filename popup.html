@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Siguetuliga</title>
+	<script src="jquery-1.11.0.min.js" ></script>
+	<script src="api.js" ></script>
+	<script src="manageItems.js" ></script>
+	<script src="settings.js" ></script>
+    <style>
+		.right {float: right}
+		.left {float: left}
+		.strong-green{background-color: #2d4704;}
+		label {padding: 5px;}
+		body {background-image: url('./balon-siguetuliga.png');
+				background-position: bottom;
+				background-repeat: no-repeat;
+				background-color: #8fd829; 
+				color: white;font-family: 'Droid Sans',arial,serif;font-size: 1.10em;
+				font-weight: bold;
+		}
+		a {color: white;}
+		input { background-color: transparent;
+				cursor: pointer;
+				padding: 5px 20px;
+				font-weight: bold;
+			}
+		input.submit {
+				color: #FFF;
+			}
+		.content{font-size: .8em;}
+    </style>
+  </head>
+  <body>
+	<div class="content">
+      <span>You can see the list of the Ids for every league </span><a href="http://www.siguetuliga.com/widget" target="_blank">here</a><br>
+	  <ul>
+	    <li><a class="add" href="#" data-id-league="279">PREMIER LEAGUE</a></li>
+	    <li><a class="add" href="#" data-id-league="24">LA LIGA</a></li>
+	  </ul>
+	</div>
+	<form>
+      <label class="left strong-green" for="league-name">LEAGUE:</label><input id="league-name" type="text" name="league-name">
+	  <label class="left strong-green" for="league-id">ID:</label><input id="league-id" type="text" name="league-id">
+	  <input class="submit strong-green" id="league-submit" type="submit" value="ADD">
+	</form>
+  </body>
+</html>
