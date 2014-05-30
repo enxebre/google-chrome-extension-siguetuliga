@@ -1,4 +1,4 @@
 chrome_extension_siguetuliga
 ============================
 
-Siguetuliga Extension for Google Chrome
+Google Chrome Extension for being up to date with the latest football results. http://www.siguetuliga.com/
